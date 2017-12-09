@@ -22,6 +22,6 @@ public void testFast() {
   
   @Test
   public void testCalc() {
-  assertEquals("Result",9,myCalc.add{});
+  assertEquals("Result",9,myCalc.add());
   }
   }
