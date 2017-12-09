@@ -1,7 +1,7 @@
 package com.qaagility.controller;
 
 import org.junit.Test;
-import static org.juint.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 import com.qaagility.controller.Calculator;
 
 public class AppTest {
