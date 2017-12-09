@@ -5,13 +5,13 @@ import static org.junit.Assert.assertEquals;
 
 public class CalcTest {
 
-  public viod testSlow() {
+  public void testSlow() {
     System.out.println("slow");
   }
-  public viod testSlower() {
+  public void testSlower() {
     System.out.println("slower");
   }
-  public viod testFast() {
+  public void testFast() {
     System.out.println("fast-updated");
   }
   
