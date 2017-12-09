@@ -17,6 +17,6 @@ public class CalcTest {
   
  @Test  
     public void testCalc() {
-      assertsquals("Result",9,9);
+      assertsEquals("Result",9,9);
 }
 }
