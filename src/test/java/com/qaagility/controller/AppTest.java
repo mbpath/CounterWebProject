@@ -8,9 +8,12 @@ import com.qaagility.controller.Calculator;
 
 public class AppTest {
   
-@Before
+
 Calculator myCalc = new Calculator();
 
+  
+ @Before
+  
 public void testSlow() {
   System.out.println("slow");
   }
@@ -29,8 +32,7 @@ public void testFast() {
   }
   @After
   public void testCalc() {
-  assertEquals("Test Successful");
-  }
+  System.out.println("fast-updated");  }
 
   
   }
